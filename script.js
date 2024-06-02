@@ -72,7 +72,7 @@ const initiasePage = (path) => {
         }else{
             document.getElementById("details").innerHTML = `Hi, ${userData.name}.... We will send next round details to ${userData.email}`
         }
-        document.getElementById("mark").innerHTML = `Hey Your Score is ${mark}`
+        document.getElementById("mark").innerHTML = `Hey Your Score is ${mark}/10`
     }
 }
 
