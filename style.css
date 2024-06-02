@@ -78,6 +78,10 @@ button:hover {
     text-align: left;
 }
 
+.btn{
+    display:flex;
+    gap: 5px;
+}
 
 /* Desktop Styles */
 @media (min-width: 768px) {
@@ -93,7 +97,5 @@ button:hover {
         width: auto;
         padding: 10px 20px;
     }
-    .btn{
-        display:flex;
-    }
+   
 }
